@@ -36,3 +36,12 @@ source venv/bin/activate
 # Instalar os pacotes necessários
 pip install pandas scikit-learn scipy
 ```
+
+### 3. Rodar a Interface interativa
+
+Com o ambiente ativo e os arquivos CSV na pasta, execute o motor de recomendação:
+
+```bash
+# Executar
+python3 tria.py
+```
