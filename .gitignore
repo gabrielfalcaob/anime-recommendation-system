@@ -216,3 +216,9 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# ==========================================
+# Configurações Próprias do Projeto de IA
+# ==========================================
+# Ignorar as bases de dados pesadas do Kaggle para não estourar o limite do GitHub
+*.csv
