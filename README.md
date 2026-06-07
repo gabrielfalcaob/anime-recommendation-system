@@ -35,13 +35,29 @@ source venv/bin/activate
 
 # Instalar os pacotes necessários
 pip install pandas scikit-learn scipy
+
+# Instalar dependência gráfica (Opcional - Necessária apenas para rodar a versão Web)
+pip install streamlit
 ```
 
-### 3. Rodar a Interface interativa
+### 3. Executar o sistema
 
-Com o ambiente ativo e os arquivos CSV na pasta, execute o motor de recomendação:
+O sistema possui duas interfaces independentes que podem ser utilizadas conforme a preferencia.
+
+Garanta que o ambiente esteja ativo e os arquivos CSV estejam na pasta correta.
+
+### Opção A: Interface Interativa via Terminal (CLI)
+Para rodar o motor de recomendação diretamente no prompt do terminal com o menu de confirmação, execute:
 
 ```bash
 # Executar
 python3 tria.py
 ```
+### Opção B: Interface Gráfica via Navegador (Web)
+Para carregar a aplicação em um ambiente visual moderno e interativo no seu navegador, utilize o Streamlit executando:
+
+```bash
+# Executar na Web*
+streamlit run app.py
+```
+#
